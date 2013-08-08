@@ -15,7 +15,12 @@
     <requires>
         <type>plugin</type>
         <name>htmlawed</name>
-        <priority>after</priority>
     </requires>
+    
+    <requires>
+		<type>priority</type>
+		<plugin>htmlawed</plugin>
+		<priority>after</priority>
+	</requires>
     
 </plugin_manifest>
